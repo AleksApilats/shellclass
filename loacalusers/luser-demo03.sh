@@ -22,7 +22,7 @@ USER_NAME=$(id -un)
 
 # Test if command succeeded
 if [[ ${?} -ne 0 ]]
-    then 
+then 
     echo "The id command did not execute successfully."
     exit 1
 fi
